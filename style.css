@@ -1,0 +1,22 @@
+body
+{
+    background-image: linear-gradient(rgba(124, 103, 103, 0.7),rgba(99, 74, 74, 0.7)), url(./‫img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 35px;
+    font-family: serif;
+    text-align: center;
+    font-size:30px
+}
+.alert
+{
+    background-color: royalblue;
+    opacity: 0.75;
+    font-size:35px;
+}
+
+#result {
+    font-size: 5px;
+}
+

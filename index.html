@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <section class="page">
+        <div class=main-body>
+            <h1>Hello user, Enter either rock, paper or scissors</h1>
+            <br>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">
+                    <h2>Enter answer here:</h2>
+                </label>
+                <select name="exampleFormControlInput1" type="text" id="choice" class="form-control">
+                    <option value="0">Rock</option>
+                    <option value="1">Paper</option>
+                    <option value="2">Scissors</option>
+                </select>
+            </div>
+
+            <div class="row result_sheet">
+                <div class="col-4">
+                    <div class="alert alert-primary" id="results">
+                        <!-- <p>intentionally left blank to leave room for answer, see output in google</p>  -->
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="alert alert-primary">
+                        <p id="user_score"></p>
+                        <p id="computer_score"></p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="alert alert-primary">
+                        <p id="user_finalscore"></p>
+                        <p id="computer_finalscore"></p>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-primary" onclick="response_calculator()">GO!</button>
+            <!-- <button type="button"   class="btn btn-danger"    onclick="resetForm();">Custom Reset Button</button> -->
+        </div>
+    </section>
+</body>
+
+</html>
